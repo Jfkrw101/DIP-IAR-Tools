@@ -26,6 +26,6 @@ def meanShiftThresholding(input_img, thresh_delta=0.01):
         if abs(new_thresh_val-thresh_val) < thresh_delta:
             break
         else:
-            thres_val = new_thres_val
+            thres_val = new_thresh_val
 
         return thresh_img, thres_val
